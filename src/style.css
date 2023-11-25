@@ -1,0 +1,195 @@
+@font-face {
+  font-family: B Yekan;
+  src: url(B_Yekan/Yekan.ttf) format("truetype");
+}
+
+body {
+  margin: 0;
+  font-family: "B Yekan";
+}
+
+.container {
+  width: 85%;
+  margin: 0 auto;
+}
+
+/*header*/
+.header {
+  background-color: rgb(20, 11, 39);
+  color: white;
+  width: 100%;
+  margin: 0px auto;
+  height: 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 12px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.header a:hover {
+  color: rgb(56, 56, 255);
+  transition: all 0.3s ease-in-out;
+}
+
+.header-date {
+  margin-left: 20px;
+}
+
+/*menu*/
+.menu {
+  width: 100%;
+  margin: 0px auto;
+  height: 80px;
+  background-color: rgb(230, 230, 230);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 15px;
+}
+
+.menu-links a {
+  color: rgba(0, 0, 0, 0.815);
+  text-decoration: none;
+  box-sizing: border-box;
+  padding: 30px 20px;
+  margin: 0;
+}
+
+.menu-links a:hover {
+  background-color: gray;
+}
+
+.image-logo {
+  margin-left: 20px;
+}
+
+/*gallery images*/
+.gallery-images {
+  line-height: 0;
+  letter-spacing: -5px;
+}
+
+.gallery-images div {
+  width: 25%;
+  display: inline-block;
+}
+
+.gallery-images img {
+  max-width: 100%;
+}
+
+/*lorem ipsom*/
+.first-title {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.first-title strong {
+  font-size: 20px;
+}
+
+/*author*/
+.author {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.author-image img {
+  border-radius: 16px 16px 0 0;
+  margin-top: 20px;
+}
+
+.description {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.description p {
+  font-size: 13px;
+
+  text-align: right;
+}
+
+/*customer*/
+.customer-box {
+  background-color: rgb(218, 218, 218);
+  margin-top: 15px;
+}
+
+.customer-box .main-title {
+  text-align: center;
+  font-size: 18px;
+}
+
+.main-title h3 {
+  padding-top: 30px;
+  margin: 0;
+}
+
+.main-title p {
+  margin-top: 10px;
+}
+
+.customer-boxs {
+  display: flex;
+}
+
+.customer-box .description-box-1,
+.description-box-3 {
+  background-color: rgb(138, 165, 156);
+  padding: 40px 30px;
+  margin: 0 20px;
+  text-align: right;
+  font-size: 14px;
+  color: white;
+}
+
+.customer-box .description-box-2 {
+  background-color: darkolivegreen;
+  padding: 40px 30px;
+  text-align: right;
+  font-size: 14px;
+  color: white;
+  margin: 0 20px;
+}
+
+.customer-images {
+  display: flex;
+  justify-content: space-between;
+}
+
+.customer-images img {
+  border-radius: 50%;
+  margin-top: 20px;
+}
+
+.customer-images .customer1-image {
+  padding-left: 350px;
+}
+
+.customer-images .customer2-image {
+  padding-left: 30px;
+}
+
+.customer-images .customer3-image {
+  padding-right: 30px;
+}
+
+.customer-name {
+  font-size: 13px;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  
+}
+
+.customer-name span {
+  font-size: 11px;
+}
