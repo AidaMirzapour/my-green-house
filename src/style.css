@@ -187,9 +187,47 @@ body {
   display: flex;
   flex-direction: column;
   text-align: right;
-  
 }
 
 .customer-name span {
   font-size: 11px;
+}
+/*join*/
+.join {
+  background-image: url(images/newsletter_bg.png);
+  height: 250px;
+  margin-top: 40px;
+  background-size: cover;
+
+}
+
+.second-bg{
+  width: 100%;
+  height: 100%;
+    display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(1, 80, 1, 0.486);
+}
+
+.join .join-header {
+  margin-right: -200px;
+  color: white;
+  font-size: 35px;
+}
+
+.join .join-input {
+  padding: 18px;
+  border: none;
+}
+
+.join .join-submit {
+  padding: 18px;
+  color: white;
+  background-color: black;
+}
+
+.join .join-submit:hover {
+  background-color: rgb(29, 46, 29);
 }
