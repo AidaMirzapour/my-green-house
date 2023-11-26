@@ -113,7 +113,6 @@ body {
 
 .description p {
   font-size: 13px;
-
   text-align: right;
 }
 
@@ -196,15 +195,14 @@ body {
 .join {
   background-image: url(images/newsletter_bg.png);
   height: 250px;
-  margin-top: 40px;
+  margin-top: 50px;
   background-size: cover;
-
 }
 
-.second-bg{
+.second-bg {
   width: 100%;
   height: 100%;
-    display: flex;
+  display: flex;
   flex-direction: row-reverse;
   justify-content: space-around;
   align-items: center;
@@ -230,4 +228,32 @@ body {
 
 .join .join-submit:hover {
   background-color: rgb(29, 46, 29);
+}
+
+/*places*/
+.places {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.places-image img {
+  width: 350px;
+}
+
+.place-description {
+  text-align: right;
+
+}
+
+.place-description h3 {
+  color: rgb(96, 134, 26);
+  margin: 0;
+}
+
+.place-description p {
+  font-size: 12px;
+  margin: 0;
+
 }
