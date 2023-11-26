@@ -193,7 +193,7 @@ body {
 }
 /*join*/
 .join {
-  background-image: url(images/newsletter_bg.png);
+  background-image: url(img/newsletter_bg.png);
   height: 250px;
   margin-top: 50px;
   background-size: cover;
