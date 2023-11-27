@@ -5,12 +5,12 @@
 
 body {
   margin: 0;
-  font-family: "B Yekan";
 }
 
 .container {
   width: 85%;
   margin: 0 auto;
+  font-family: "B Yekan";
 }
 
 /*header*/
@@ -164,7 +164,7 @@ body {
   justify-content: space-around;
 }
 
-.customer{
+.customer {
   display: flex;
   margin-bottom: 20px;
   width: 350px;
@@ -175,7 +175,6 @@ body {
   border-radius: 50%;
   margin-top: 20px;
 }
-
 
 .customer-name {
   font-size: 13px;
@@ -215,12 +214,14 @@ body {
 }
 
 .join .join-input {
-  padding: 18px;
+  font-size: 15px;
+  padding: 11px;
   border: none;
 }
 
 .join .join-submit {
-  padding: 18px;
+  font-size: 15px;
+  padding: 10px;
   color: white;
   background-color: black;
 }
@@ -243,18 +244,17 @@ body {
 
 .place-description {
   text-align: right;
-
 }
 
 .place-description h3 {
   color: rgb(96, 134, 26);
   margin: 0;
+  font-size: 22px;
 }
 
 .place-description p {
   font-size: 12px;
   margin: 0;
-
 }
 
 /*footer*/
@@ -267,4 +267,8 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 12px;
+}
+
+.footer p{
+  margin: 0;
 }
