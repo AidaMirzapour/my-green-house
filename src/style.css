@@ -159,36 +159,35 @@ body {
   margin: 0 20px;
 }
 
-.customer-images {
+.customer-detail {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
 }
 
-.customer-images img {
+.customer{
+  display: flex;
+  margin-bottom: 20px;
+  width: 350px;
+  justify-content: right;
+}
+
+.customer-detail img {
   border-radius: 50%;
   margin-top: 20px;
 }
 
-.customer-images .customer1-image {
-  padding-left: 350px;
-}
-
-.customer-images .customer2-image {
-  padding-left: 30px;
-}
-
-.customer-images .customer3-image {
-  padding-right: 30px;
-}
 
 .customer-name {
   font-size: 13px;
   display: flex;
   flex-direction: column;
   text-align: right;
+  justify-content: center;
+  width: 70px;
+  align-items: center;
 }
 
-.customer-name span {
+.customer-name .little-name {
   font-size: 11px;
 }
 /*join*/
